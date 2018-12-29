@@ -363,15 +363,15 @@ extern void board_set_led_normal(void);
 #undef CONFIG_PCI_PNP
 #undef CONFIG_PCIAUTO_SKIP_HOST_BRIDGE
 #undef CONFIG_SYS_PCI_64BIT
-#undef CONFIG_CMD_PCI
+//#undef CONFIG_CMD_PCI
 #undef CONFIG_CMD_IMPORTENV
 #undef CONFIG_CMD_EXPORTENV
 #undef CONFIG_CMD_ASKENV
 #undef CONFIG_CMD_EDITENV
 #undef CONFIG_CMD_IMLS
 #undef CONFIG_CMD_ELF
-#undef CONFIG_CMD_BOOTM
-#undef CONFIG_CMD_EXT2
-#undef CONFIG_CMD_EXT4
+//#undef CONFIG_CMD_BOOTM
+//#undef CONFIG_CMD_EXT2
+//#undef CONFIG_CMD_EXT4
 #undef CONFIG_CMD_FDT
 #endif	/* __CONFIG_H__ */

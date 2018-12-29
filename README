@@ -1,3 +1,18 @@
+It cannot work now.
+It will generate Rerver Instructions problem
+
+if you want to debug:
+
+1. install an debian sid chroot, for example:
+    sudo debootstrap sid sid http://THE_MIRROR.you.need/debian
+2. sudo chroot sid
+3. apt-get install gcc-mips64-linux-gnuabi64 libn32gcc-8-dev-mips64-cross
+4. make octeon_ubnt_e1000_config
+5. make octeon_ubnt_e1000
+6. mips64-linux-gnuabi64-objdump -d u-boot-octeon_ubnt_e1000
+
+you can also use you favourite cross toolchain, N32 support is needed.
+
 #
 # (C) Copyright 2000 - 2013
 # Wolfgang Denk, DENX Software Engineering, wd@denx.de.

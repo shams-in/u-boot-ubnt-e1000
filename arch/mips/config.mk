@@ -6,7 +6,7 @@
 #
 
 ifeq ($(CPU),octeon)
-	CROSS_COMPILE ?= mips64-octeon-linux-gnu-
+	CROSS_COMPILE ?= mips64-linux-gnuabi64-
 	STANDALONE_LOAD_ADDR = 0x80200000 -T mips-octeon.lds
 else
 	CROSS_COMPILE ?= mips_4KC-
